@@ -1,0 +1,162 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 18px;
+    width:100%;
+}
+header{
+    background-color: rosybrown;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+    text-align: center;
+}
+h1{
+    font-size: 18px;
+    font-family: 游ゴシック体;
+    color: white;
+}
+main{
+    width:100%;
+    display: block;
+    position:relative;
+}
+footer{
+    background-color: #fff;
+    text-align: center;
+}
+
+p{
+    display: block;
+    width: 50px;
+    font-size: 14px;
+    font-family: 游ゴシック体;
+    border-bottom:1px solid #fff;
+}
+
+img{
+    width: 32px;
+    height: 32px;
+}
+
+.input{
+    padding: 30px;
+    display: flex;
+    width: 100%;
+    font-family: 游ゴシック体;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+    gap: 30px;
+    
+}
+
+.fd_innner{
+    display: flex;
+    gap: 10px;
+}
+
+.dt_innner{
+    display: flex;
+    gap: 10px;
+}
+
+.chd_innner{
+    display: flex;
+    gap: 30px;
+}
+
+textarea{
+    width: 150px;
+    height: 20px;
+    font-size:80%;
+    box-shadow: 3px 3px 3px 3px rosybrown;
+    background-color:rgb(241, 239, 239);
+    font-family: 游ゴシック体;
+}
+
+#number{
+    width: 50px;
+    height: 20px;
+    font-size:80%;
+    box-shadow: 3px 3px 3px 3px rosybrown;
+    background-color:rgb(241, 239, 239);
+    font-family: 游ゴシック体;
+    
+}
+
+.ul_btn{
+    width: 300px;
+    margin: 0 auto;
+}
+
+#save{
+    list-style-type:none;
+    border: 1px solid white;
+    background-color: rosybrown;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+    color: white;
+    width: 300px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 游ゴシック体;
+    border-radius: 10px;
+}
+#save:hover{
+    background: #bab4b4;
+    color:#fff;
+}
+
+#clear{
+    list-style-type:none;
+    border: 1px solid white;
+    background-color: #bab4b4;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+    color: white;
+    width: 300px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 游ゴシック体;
+}
+#clear:hover{
+    background: rosybrown;
+    color:#fff;
+}
+
+
+
+
+#key{
+    margin:0 3%;
+    width: 95%;
+    font-size:80%;
+    background-color: #e1efff;
+    box-shadow: 3px 3px 3px 3px #555;
+}
+table{
+    margin: 0 auto;
+    margin-top: 80px;
+    border:1px solid rosybrown;
+    width: 600px;
+    margin-bottom: 80px;
+    
+}
+th{
+    width:30%;
+    font-size: 14px;
+    background-color:#bab4b4;
+    border-bottom: 1px solid rosybrown;
+    font-family: 游ゴシック体;
+}
+td{
+    font-size: 14px;
+    background-color: #bab4b4;
+    border-bottom: 1px solid rosybrown;
+    font-family: 游ゴシック体;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>食事記録</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header>
+<h1>今日何食べた？</h1>
+</header>
+
+<main>
+    <div class="input"><div class="dt_innner">
+        <img src="datetime.png">
+        <div class="time"><input type="time" id="time" value=""></div></div>
+    <!-- <input type="text" id="key"> -->
+
+        <div class="fd"><div class="fd_innner">
+            <img src="fd.png">
+            <textarea id="memo"></textarea></div></div>
+        <div class="chd"><div class="chd_innner">
+            <img src="chd.png">
+            <input type="number" id="number" value="" step="0.1">
+            <p>g</p></div></div>
+        </div>
+
+    <ul class="ul_btn">
+        <li id="save">記録する</li>
+    </ul>
+</main>
+<table id="list">
+<!-- ここに追加データが挿入される -->
+</table>
+
+<ul class="ul_btn">
+    <li id="clear">1日終わり</li>
+</ul>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/js.js"></script>
